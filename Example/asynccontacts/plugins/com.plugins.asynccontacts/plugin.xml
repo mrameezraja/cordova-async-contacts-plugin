@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  id="com.plugins.asynccontacts"
+  version="0.0.1">
+
+    <name>AsyncContacts</name>
+    <author>Rameez Raja</author>
+    <description>AsyncContacts Plugin</description>
+    <license>MIT</license>
+
+    <js-module src="www/contacts.js" name="contacts">
+        <clobbers target="AsyncContacts" />
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="AsyncContacts">
+                <param name="ios-package" value="AsyncContacts"/>
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/AsyncContacts.h" />
+        <source-file src="src/ios/AsyncContacts.m" />
+
+        <header-file src="src/ios/Pod/Core/APAddress.h" />
+        <source-file src="src/ios/Pod/Core/APAddress.m" />
+        <header-file src="src/ios/Pod/Core/APAddressBook.h" />
+        <source-file src="src/ios/Pod/Core/APAddressBook.m" />
+        <header-file src="src/ios/Pod/Core/APContact.h" />
+        <source-file src="src/ios/Pod/Core/APContact.m" />
+        <header-file src="src/ios/Pod/Core/APPhoneWithLabel.h" />
+        <source-file src="src/ios/Pod/Core/APPhoneWithLabel.m" />
+        <header-file src="src/ios/Pod/Core/APSocialProfile.h" />
+        <source-file src="src/ios/Pod/Core/APSocialProfile.m" />
+        <header-file src="src/ios/Pod/Core/APTypes.h" />
+
+        <framework src="AddressBook.framework" weak="true" />
+        <framework src="AddressBookUI.framework" weak="true" />
+        <framework src="CoreGraphics.framework" />
+    </platform>
+</plugin>
