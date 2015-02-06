@@ -10,12 +10,12 @@ AsyncContacts.prototype.getAsync = function(successCallback, errorCallback){
     cordova.exec(onsuccess, errorCallback, "AsyncContacts", "getContactsAsync");
 }
 
-/*if(!window.plugins) {
+if(!window.plugins) {
     window.plugins = {};
 }
-if (!cordova.plugins.contacts) {
-   cordova.plugins.contacts = new AsyncContacts();
-}*/
+if (!window.plugins.addressbook) {
+  window.plugins.addressbook = new AsyncContacts();
+}
 
 if (typeof module != 'undefined' && module.exports) {
   module.exports = AsyncContacts;

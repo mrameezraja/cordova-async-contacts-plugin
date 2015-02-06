@@ -10,7 +10,7 @@
     <license>MIT</license>
 
     <js-module src="www/contacts.js" name="contacts">
-        <clobbers target="cordova.plugins.contacts" />
+        <clobbers target="AsyncContacts" />
     </js-module>
 
     <!-- ios -->
