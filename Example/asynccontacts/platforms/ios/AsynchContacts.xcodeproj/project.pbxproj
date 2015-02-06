@@ -39,14 +39,6 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		9E31BAB21B89488099675AA9 /* AsyncContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEFA15075B14B40A6FEB421 /* AsyncContacts.m */; };
-		64E433DC7BF14AD58742CCB2 /* APAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 7434B2BABD1F4BFDB9303F2A /* APAddress.m */; };
-		74DE0B3AE88546A89E903449 /* APAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = D9111AD572704CF5BE8B0051 /* APAddressBook.m */; };
-		1E748F928E3A41E484610599 /* APContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 70B639AF56864C70B9C58C68 /* APContact.m */; };
-		7EE20C973D8D48C7B248730C /* APPhoneWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B672239078A43D3BFF2FD5E /* APPhoneWithLabel.m */; };
-		196CD02D1C404CDEAD418C0E /* APSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1562CBD0CB7A4F7C8EB3856E /* APSocialProfile.m */; };
-		6E7F7D924FBC43199167F37F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F0DF123AB9D4D0B97E46E33 /* AddressBook.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		409A7029137D402495E992EA /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B044B2C3B3B2450BA1EC71A9 /* AddressBookUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,21 +104,6 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "AsynchContacts/config.xml"; sourceTree = "<group>"; };
-		FDEFA15075B14B40A6FEB421 /* AsyncContacts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AsyncContacts.m"; path = "com.plugins.asynccontacts/AsyncContacts.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		7434B2BABD1F4BFDB9303F2A /* APAddress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "APAddress.m"; path = "com.plugins.asynccontacts/APAddress.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		D9111AD572704CF5BE8B0051 /* APAddressBook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "APAddressBook.m"; path = "com.plugins.asynccontacts/APAddressBook.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		70B639AF56864C70B9C58C68 /* APContact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "APContact.m"; path = "com.plugins.asynccontacts/APContact.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		4B672239078A43D3BFF2FD5E /* APPhoneWithLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "APPhoneWithLabel.m"; path = "com.plugins.asynccontacts/APPhoneWithLabel.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		1562CBD0CB7A4F7C8EB3856E /* APSocialProfile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "APSocialProfile.m"; path = "com.plugins.asynccontacts/APSocialProfile.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		E5B903AD6DAF49D2BF1E42CA /* AsyncContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AsyncContacts.h"; path = "com.plugins.asynccontacts/AsyncContacts.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		5D43880B48724669A04684A4 /* APAddress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "APAddress.h"; path = "com.plugins.asynccontacts/APAddress.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		7F2D425DBD8F4D5BB5238047 /* APAddressBook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "APAddressBook.h"; path = "com.plugins.asynccontacts/APAddressBook.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		6BD1C42C6A024836B23C9527 /* APContact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "APContact.h"; path = "com.plugins.asynccontacts/APContact.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		B7B83F9D75FE496B94DEB985 /* APPhoneWithLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "APPhoneWithLabel.h"; path = "com.plugins.asynccontacts/APPhoneWithLabel.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		4E0419604CCF42308B826A79 /* APSocialProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "APSocialProfile.h"; path = "com.plugins.asynccontacts/APSocialProfile.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		C29A3DDFBA4D43EE8030AB27 /* APTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "APTypes.h"; path = "com.plugins.asynccontacts/APTypes.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		4F0DF123AB9D4D0B97E46E33 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AddressBook.framework"; path = "System/Library/Frameworks/AddressBook.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		B044B2C3B3B2450BA1EC71A9 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "AddressBookUI.framework"; path = "System/Library/Frameworks/AddressBookUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,8 +115,6 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				6E7F7D924FBC43199167F37F /* AddressBook.framework in Frameworks */,
-				409A7029137D402495E992EA /* AddressBookUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +187,6 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				4F0DF123AB9D4D0B97E46E33 /* AddressBook.framework */,
-				B044B2C3B3B2450BA1EC71A9 /* AddressBookUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,19 +202,6 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				FDEFA15075B14B40A6FEB421 /* AsyncContacts.m */,
-				7434B2BABD1F4BFDB9303F2A /* APAddress.m */,
-				D9111AD572704CF5BE8B0051 /* APAddressBook.m */,
-				70B639AF56864C70B9C58C68 /* APContact.m */,
-				4B672239078A43D3BFF2FD5E /* APPhoneWithLabel.m */,
-				1562CBD0CB7A4F7C8EB3856E /* APSocialProfile.m */,
-				E5B903AD6DAF49D2BF1E42CA /* AsyncContacts.h */,
-				5D43880B48724669A04684A4 /* APAddress.h */,
-				7F2D425DBD8F4D5BB5238047 /* APAddressBook.h */,
-				6BD1C42C6A024836B23C9527 /* APContact.h */,
-				B7B83F9D75FE496B94DEB985 /* APPhoneWithLabel.h */,
-				4E0419604CCF42308B826A79 /* APSocialProfile.h */,
-				C29A3DDFBA4D43EE8030AB27 /* APTypes.h */,
 			);
 			name = Plugins;
 			path = "AsynchContacts/Plugins";
@@ -426,12 +386,6 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				9E31BAB21B89488099675AA9 /* AsyncContacts.m in Sources */,
-				64E433DC7BF14AD58742CCB2 /* APAddress.m in Sources */,
-				74DE0B3AE88546A89E903449 /* APAddressBook.m in Sources */,
-				1E748F928E3A41E484610599 /* APContact.m in Sources */,
-				7EE20C973D8D48C7B248730C /* APPhoneWithLabel.m in Sources */,
-				196CD02D1C404CDEAD418C0E /* APSocialProfile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

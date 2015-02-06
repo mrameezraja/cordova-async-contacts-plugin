@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
   xmlns:android="http://schemas.android.com/apk/res/android"
-  id="com.plugins.asynccontacts"
+  id="com.mrameezraja.plugins.asynccontacts"
   version="0.0.1">
 
     <name>AsyncContacts</name>
@@ -10,7 +10,7 @@
     <license>MIT</license>
 
     <js-module src="www/contacts.js" name="contacts">
-        <clobbers target="AsyncContacts" />
+        <clobbers target="cordova.plugins.contacts" />
     </js-module>
 
     <!-- ios -->

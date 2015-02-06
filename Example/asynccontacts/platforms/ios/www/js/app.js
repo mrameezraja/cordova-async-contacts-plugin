@@ -23,21 +23,21 @@ angular.module('starter', ['ionic'])
         var getContacts = function(){
             var deferred = $q.defer();
 
-            if(window.plugins && window.plugins.asyncContacts) {
-                window.plugins.asyncContacts.get(function(contacts){
+            if(window.cordova && window.cordova.plugins.contacts) {
+                window.cordova.plugins.contacts.getAsync(function(contacts){
                     //console.log(contacts);
                     deferred.resolve(JSON.parse(contacts));
                 }, function(err){
                         deferred.reject("contacts error: " + err);
                 });
-                
+
             } else {
                     deferred.reject("No contacts in desktop browser");
             }
 
             return deferred.promise;
         }
-        
+
         return {
             getContacts: getContacts
         };
@@ -48,7 +48,7 @@ angular.module('starter', ['ionic'])
         $scope.data = {
             contacts:[]
         };
-        
+
         $scope.getContacts = function(){
             ContactsService.getContacts().then(function(contacts) {
                 $scope.data.contacts = contacts;
@@ -56,11 +56,11 @@ angular.module('starter', ['ionic'])
                 alert(error);
             });
         }
-        
+
         $scope.getItemHeight = function(item, index) {
             return 60;
         };
-        
+
         $scope.reset = function(){
             $scope.data.contacts = [];
         }
