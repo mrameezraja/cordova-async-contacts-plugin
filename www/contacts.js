@@ -10,6 +10,11 @@ AsyncContacts.prototype.getAsync = function(successCallback, errorCallback){
     cordova.exec(onsuccess, errorCallback, "AsyncContacts", "getContactsAsync");
 }
 
+AsyncContacts.prototype.checkPermission = function(successCallback, errorCallback){
+    cordova.exec(successCallback, errorCallback, "AsyncContacts", "checkAccess");
+}
+
+
 if(!window.plugins) {
     window.plugins = {};
 }
