@@ -1,5 +1,5 @@
 # cordova-async-contacts
-Load contacts from iOS address book asynchronously (upto 15000 contacts in ~10-15 seconds)
+Load contacts from iOS address book asynchronously (upto 15000 contacts in ~5-10 seconds)
 for ios only
 
 developed using github.com/Alterplay/APAddressBook.
