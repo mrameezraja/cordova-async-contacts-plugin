@@ -6,7 +6,7 @@ Load contacts from iOS address book asynchronously (upto 15000 contacts in ~5-10
 
 This plugin is inspired from github.com/Alterplay/APAddressBook.
 
-<pre><code>cordova plugin add https://github.com/mrameezraja/cordova-async-contacts.git</code></pre>
+<pre><code>cordova plugin add https://github.com/mrameezraja/cordova-async-contacts-plugin.git</code></pre>
 
 
 Methods
